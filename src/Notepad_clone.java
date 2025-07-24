@@ -115,7 +115,7 @@ public class Notepad_clone extends JFrame implements ActionListener {
                     int fontSize = Integer.parseInt(fontSizeStr);
                     textArea.setFont(new Font(fontName, Font.PLAIN, fontSize));
                 } catch (Exception ex) {
-                    JOptionPane.showMessageDialog(this, "Invalid input for font size.");
+                    JOptionPane.showMessageDialog(this, "Invalid input for font size pls give correct one.");
                 }
                 break;
 
